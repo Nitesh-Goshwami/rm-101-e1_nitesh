@@ -6,7 +6,7 @@ const AddTask = () => {
   return (
     <div className={styles.todoForm}>
       <input data-testid="add-task-input" type="text" />
-      <button data-testid="add-task-button"></button>
+      <button data-testid="add-task-button">Add</button>
     </div>
   );
 };
